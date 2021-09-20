@@ -7,8 +7,8 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-* [my-playbook.yml](./Ansible/docker_install_playbook.yml) - Used to install DVWA Servers.
-* [elk.yml](./Ansible/elk_install_playbook.yml) - Used to install Elk Server.
+* [my-playbook.yml](./Ansible/my-playbook.yml) - Used to install DVWA Servers.
+* [elk.yml](./Ansible/elk.yml) - Used to install Elk Server.
 * [Filebeats-playbook.yml](./Ansible/Filebeat_playbook.yml) - Used to install and configure Filebeat on ELK Server and DVWA Server.
 * [Linux-Bash](./Linux/LuckyDuck.sh)
  
