@@ -43,7 +43,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Web-2                | Web Server     | 10.0.0.6               | Linux |
 | Red-VM (ELK server)  | ELK Server     | 10.1.0.4/52.247.66.56  | Linux |
 | Load Balancer        | Load Balancer  | 52.137.112.232         | Linux |
-| Workstation         | Access control | 97.85.233.58           | Linux
+| Workstation         | Access control | Public IP             | Linux
 
 ### Access Policies
 
