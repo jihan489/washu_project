@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 * [my-playbook.yml](./Ansible/my-playbook.yml) - Used to install DVWA Servers.
 * [elk.yml](./Ansible/elk.yml) - Used to install Elk Server.
-* [Filebeat-playbook.yml](./Ansible/Filebeat-playbook.yml) - Used to install and configure Filebeat on ELK Server and DVWA Server.
+* [filebeat-playbook.yml](./Ansible/Filebeat-playbook.yml) - Used to install and configure Filebeat on ELK Server and DVWA Server.
 * [Linux-Bash](./Linux/LuckyDuck.sh)
  
 This document contains the following details:
