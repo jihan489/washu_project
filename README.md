@@ -109,14 +109,14 @@ SSH into the control node and follow the steps below:
 - Update the yml file to include installer
 - Run the playbook, and navigate to http://52.247.66.56:5601 to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
--  Which file is the playbook elk.yml
+
+-  Which file is the playbook? elk.yml
 -  Where do you copy it? /etc/ansible
 -  Which file do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts
-- How do I specify which machine to install the ELK server on versus which to install Filebeat on?etc/ansible/hosts you can specify what severs to install Filebeat on.
--  Which URL do you navigate to in order to check that the ELK server is running?
+-  How do I specify which machine to install the ELK server on versus which to install Filebeat on?etc/ansible/hosts you can specify what severs to install Filebeat on.
+-  Which URL do you navigate to in order to check that the ELK server is running? http://52.247.66.56:5601
 
-_As a **Bonus**, provide the specific commands the user will need to run and download the playbook
+_Provide the specific commands the user will need to run and download the playbook
 - download the playbook: etc/ansible/ use curl command wget
-- run playbook: ansible-playbook <playbook name.yml
 - update the files: nano /etc/ansible/hosts
+- run playbook: ansible-playbook <playbook name.yml>
