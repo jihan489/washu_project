@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![https://github.com/jihan489/washu_project/blob/a35ee7555366da24fdcd040597c221351ea19e6e/Diagram/Security_Cloud.drawio.png](Diagram/Security_Cloud.drawio.png)
+![https://github.com/jihan489/washu_project/blob/e4b4d7a0c9332993630c645a7cd36884c391efc2/Diagram/Security%20Cloud.drawio.png](Diagram/Security_Cloud.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
