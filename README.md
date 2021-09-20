@@ -117,5 +117,6 @@ _TODO: Answer the following questions to fill in the blanks:_
 -  Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to 
-- download the playbook: etc/ansible/ use curl command 
+- download the playbook: etc/ansible/ use curl command wget
+- run playbook: ansible-playbook <playbook name.yml
 - update the files: 
