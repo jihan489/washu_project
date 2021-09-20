@@ -11,7 +11,6 @@ These files have been tested and used to generate a live ELK deployment on Azure
 * [elk.yml](./Ansible/elk.yml) - Used to install Elk Server.
 * [filebeat-playbook.yml](./Ansible/filebeat-playbook.yml) - Used to install and configure Filebeat on ELK Server and DVWA Server.
 * [mtericbeat-playbook.yml](./Ansible/metric-playbook.yml) - Used to 
-* [Linux-Bash](./Linux/LuckyDuck.sh)
  
 This document contains the following details:
 - Description of the Topology
