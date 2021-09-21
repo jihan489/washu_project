@@ -116,7 +116,36 @@ SSH into the control node and follow the steps below:
 -  How do I specify which machine to install the ELK server on versus which to install Filebeat on?etc/ansible/hosts you can specify what severs to install Filebeat on.
 -  Which URL do you navigate to in order to check that the ELK server is running? http://52.247.66.56:5601
 
-_Provide the specific commands the user will need to run and download the playbook
-- download the playbook: etc/ansible/ use curl command wget
-- update the files: nano /etc/ansible/hosts
-- run playbook: ansible-playbook <playbook name.yml>
+_SSH into JumpBoxProvisioner from Local Desktop: 
+
+- ssh -i <private key>sysadmin@<Publib IP>
+    
+View list of docker containers: 
+- sudo docker container list -a
+    
+  
+Start docker: 
+- sudo docker start <container name>
+    
+  
+Attach to docker: 
+- sudo docker attach <container name>
+    
+  
+Add DVWAs to hosts file: 
+- nano /etc/ansible/hosts
+- add additional private IPs under [webservers]
+    
+  
+Run playbook to update elk: 
+- ansible-playbook /etc/ansible/install-elk.yml
+    
+  
+Copy filebeat configuration file: 
+- copy filebeatconfig.yml file to /etc/ansible/
+    
+Run playbook for filebeat: 
+- ansible-playbook /etc/ansible/filebeat-playbook.yml
+    
+Open Kibana in browser:
+-   [http://52.247.66.56:5601/](http://52.247.66.56:5601/)
